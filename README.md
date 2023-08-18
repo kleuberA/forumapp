@@ -1,4 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Projeto de Fórum Online
+
+Bem-vindo ao Projeto de Fórum Online! Este é um aplicativo web desenvolvido usando Next.js e TypeScript, permitindo aos usuários fazer login, se cadastrar, criar fóruns e explorar uma lista de fóruns disponíveis. Siga as instruções abaixo para configurar e executar o código em sua máquina.
+
+## Funcionalidades Principais
+
+Autenticação: Os usuários podem se cadastrar e fazer login na plataforma.</br>
+Fóruns: Os usuários podem criar seus próprios fóruns e visualizar uma lista de fóruns existentes.
+
+## Pré-requisitos
+
+Certifique-se de ter o seguinte instalado em sua máquina:
+
+Node.js: https://nodejs.org/</br>
+Yarn (opcional, mas recomendado): https://yarnpkg.com/
+
+## Como Rodar o Projeto
+
+```bash
+git clone https://github.com/seu-usuario/projeto-forum-online.git
+cd projeto-forum-online
+
+npm install
+```
+
+## Rotas da API
+
+Aqui estão alguns exemplos de rotas da API que você pode explorar:
+
+POST /api/register: Registra um novo usuário.</br>
+POST /api/auth: Permite que um usuário faça login.</br>
+POST /api/forum/criarforum: Cria um novo fórum.</br>
+GET /api/forum/getforum: Retorna uma lista de fóruns existentes.</br>
 
 ## Getting Started
 
@@ -22,8 +54,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
